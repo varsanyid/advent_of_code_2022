@@ -30,4 +30,4 @@ def solution(calories_sum: dict[int, int]) -> int:
 def solution_2nd_part(calories: dict[int, int]) -> int:
     return sum(sorted(calories.values())[-3:])
 
-run("./week_01/input.txt")
+run("./day_01/input.txt")
